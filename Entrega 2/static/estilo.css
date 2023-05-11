@@ -1,16 +1,63 @@
-.topo{ background-color: #99A285;
+.topo{ background-color: #4e4f3d;
   width: 1920px;
   height: 60px;
-  padding: auto;
+  padding: 0cm;
   text-align: left;
   margin: left;
-
 }
 
+.topo2{ background-color: #a0b179;
+  width: 1920px;
+  height: 60px;
+  padding: 0cm;
+  text-align: left;
+  margin: left;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+.link{  
+  font-size: 20 px;
+  display:grid ;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  background-color: #636851;
+  width: 1920;
+  height: 60px;
+}
+
+.lacademico{
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: black;
+}
+
+.lsobremim{
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.lcontato{
+  display: grid;
+  grid-column: 3;
+  grid-row: 1;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
 
 /*inicio flap card*/
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #cacda5;
   }
   
   .flip-card {
@@ -55,9 +102,7 @@ body {
   }
 /* fechando flap card*/
 
-.link{
-  font-size: 20 px;
-}
+
 
 
 /* corpo */
@@ -81,12 +126,6 @@ body {
   grid-template-columns: auto auto auto;
 }
 
-.link{
-  float: right;
-  
-  margin: 0px;
-}
-
 .rodape{
   text-align: center;
 }
@@ -108,15 +147,17 @@ body {
 /* alinhamento dos hx */
 h1 {
 	text-align: center;
-	margin: 50px ;
-	font-size: 2em;
+	margin: 0px ;
+	font-size: 1.5em;
 	font-weight: normal;
+  padding-top: 10px;
 }
 h2 {
 	text-align: center;
-	margin: 20px 0 0 0;
-	font-size: 1.25em;
+	margin-top: 0%;
+	font-size: 1.5em;
 	font-weight: normal;
+  padding-top: 10px;
 }
 h3 {
   text-align: left;
@@ -165,3 +206,15 @@ li{
   height: 30px;
   text-align: left;
 }
+
+.rodape{
+  background-color: #99A285;
+  width: 2000px;
+  height: 100px;
+  padding: auto;
+  text-align: justify;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
