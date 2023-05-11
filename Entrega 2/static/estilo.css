@@ -1,5 +1,5 @@
 .topo{ background-color: #4e4f3d;
-  width: 1920px;
+  width: 1783px;
   height: 60px;
   padding: 0cm;
   text-align: left;
@@ -7,7 +7,7 @@
 }
 
 .topo2{ background-color: #a0b179;
-  width: 1920px;
+  width: 1783px;
   height: 60px;
   padding: 0cm;
   text-align: left;
@@ -139,7 +139,7 @@ body {
 
 /* box */
 .item {
-  margin: 60px;
+  margin: 45px;
 	font-size: auto;
 }
 
@@ -181,6 +181,12 @@ p{
 	font-weight: normal;
 }
 
+.descricao{
+  font-size: 1.25em;
+  margin-top: 40px
+}
+
+
 /* tabela */
 
 li{
@@ -202,19 +208,32 @@ li{
 
 .apresentacao{
   background-color: #99A285;
-  width: 200px;
-  height: 30px;
-  text-align: left;
+  width: 400px;
+  height: 70px;
+  text-align: center;
+  font-size: 1.75em;
 }
 
 .rodape{
   background-color: #99A285;
-  width: 2000px;
+  width: 1783px;
   height: 100px;
   padding: auto;
-  text-align: justify;
   margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
+  margin-top: 40px;
+  text-align: center;
 }
 
+.rodapee{
+  display: grid;
+  grid-column: 2;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.25em;
+}
+
+.imagens{
+  margin-top: 20px;
+}
